@@ -6,7 +6,7 @@ import { AppLoading } from 'expo';
 import * as Font from 'expo-font'
 
 import productReducer from './store/reducers/products';
-import cartReducer from './store/reducers/card';
+import cartReducer from './store/reducers/cart';
 
 import ShopNavigator from './navigation/ShopNavigation';
 

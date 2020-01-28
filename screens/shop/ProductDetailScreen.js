@@ -2,7 +2,7 @@ import React from 'react';
 import {View, ScrollView, Text, Image, Button, StyleSheet} from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { addToCart } from '../../store/actions/card';
+import { addToCart } from '../../store/actions/cart';
 
 import Colors from '../../constants/Colors';
 

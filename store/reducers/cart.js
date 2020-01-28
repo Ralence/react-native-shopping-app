@@ -1,4 +1,4 @@
-import { ADD_TO_CART } from '../actions/card';
+import { ADD_TO_CART } from '../actions/cart';
 import CardItem from '../../models/cart-item';
 
 const initialState = {
