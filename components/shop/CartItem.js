@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 const CartItem = props => {
     const product = props.product;
-    console.log(product)
+    
     return (
         <View style={styles.cartItem}>
             <View style={styles.itemData}>
@@ -12,7 +12,7 @@ const CartItem = props => {
                 <Text style={styles.mainText}>{product.productTitle}</Text>
             </View>
             <View style={styles.itemData}>
-                <Text style={styles.mainText}>${product.sum} </Text>
+                <Text style={styles.mainText}>${product.sum.toFixed(2)} </Text>
                 <TouchableOpacity onPress={props.onRemove} style={styles.deleteButton}>
                     <Ionicons 
                         name={Platform.OS === 'android' ? 'md-trash' : 'ios-trash'} 
